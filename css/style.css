@@ -1,0 +1,636 @@
+*
+{
+          padding: 0px;
+          margin: 0px;
+          box-sizing: border-box;
+}
+body
+{
+      overflow: hidden;
+}
+.colorcontainer
+{
+     background-color: transparent;
+      position: absolute;
+      left: -220px ;
+      top: 40%;
+      z-index: 99999;           
+      position: fixed;
+      overflow: hidden;
+      
+}
+.colorcontainer i
+{
+      font-size: 30px;
+      cursor: pointer;
+      color: #00d5ee;
+      
+}
+.navbar
+{
+      position: fixed;
+      z-index: 999;
+      
+}
+
+.colorcontainer li
+{
+    
+      width:20px;
+      height: 20px;
+      border-radius: 5px;
+      margin: 5px;
+      float: left;
+      cursor: pointer;
+      overflow: hidden;
+     
+
+}
+
+.colorcontainer ul
+{
+      list-style-type: none !important;
+     -ms-text-combine-horizontal: digits;
+}
+.colorbox
+{
+      background-color:#ccc;
+      float: left;
+      overflow: hidden;
+      padding: 20px;
+     
+    
+}
+.nav-link
+{
+    font-weight: bold;
+}
+.navicons
+{
+      display: flex; 
+     margin-left: 5%;
+}
+.navbar hr
+{
+     background-color: #ccc;
+     display: none;
+}
+.navicons i
+{
+      margin-right: 20px;
+}
+#home
+{
+      position: relative !important;
+} 
+@media screen and (max-width:991px) and (min-width:300px)
+{
+      .navicons
+{
+      display: flex; 
+      flex-direction: column;
+     margin-left: 0%;
+  
+}
+.navbar hr
+{
+     background-color: #ccc;
+     display:block;
+}
+}
+.home
+{
+          background-image: url(../imgs/bg-image-28.jpg);
+          background-position: center center;
+          background-size: cover;
+          height: 100vh;
+          
+}
+
+#home
+{
+          overflow: hidden;
+         
+}
+#carouselExampleIndicators ol li
+{
+      width: 10px !important;
+      height: 10px !important;
+      border-radius: 50% !important;
+}
+.controls
+{
+      top: 40%;
+      left: 0;
+      display: flex;
+      flex-direction: column !important;
+}
+@media screen and (max-width:768px) and (min-width:300px)
+{
+      .controls
+      {
+            display: none;
+      }
+}
+.controls a
+{
+      color: #fff !important;
+      border: 1px solid white;
+}
+.controls a:hover
+{
+      background-color: #fff;
+      color: #000 !important;
+}
+
+.layer
+{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+}
+
+.sec1link
+{
+      padding: 12px 18px;
+      text-decoration: none !important;
+      border-radius: 4px;
+}
+
+.sec1link2
+{
+      padding: 10px 20px;
+      text-decoration: none !important;
+      border: 2px solid white;
+      border-radius: 4px;
+}
+
+.sec1link2:hover
+{
+      background-color: white !important;
+      color: black !important;
+}
+
+.h1home1
+{
+          font-size: 80px;
+          font-weight: 900;
+}
+
+.phome1
+{
+          font-size: 30px;
+          font-weight: 700;
+}
+
+.layer
+{
+          background-color: rgba(0, 0, 0, 0.3);
+          height: 100%;
+}
+
+.home2
+{
+          background-image: url(../imgs/bg-image-29.jpg);
+          background-position: center center;
+          background-size: cover;
+          height: 100vh;
+}
+
+.h1home2
+{
+          font-size: 80px;
+          font-weight: 900;
+}
+
+.phome2
+{
+          font-size: 30px;
+      font-weight: 700;
+}
+
+
+
+.navicon
+{
+      
+      display: block !important;
+}
+
+/*///////////////////////////////////// END OF CSS SECTION 1 /////////////////////////////////*/
+
+/*///////////////////////////////////// START OF CSS SECTION 2 /////////////////////////////////*/
+
+.rounded
+{
+          padding: 15px;
+          border: 2px solid #eee;
+          text-decoration: none !important;
+          color: black;
+}
+.item
+{
+          padding-bottom: 20px !important;
+}
+
+.rounded:hover
+{
+          background-color: black;
+          color: white !important;
+}
+
+.anmation
+{
+          font-size: 20px;
+          font-weight: bold;
+          color: #09c;
+}
+
+.anmation::after
+{
+          content: "";
+          animation-name: kanmtion;
+          animation-duration: 15s;
+          animation-iteration-count: infinite;
+}
+
+@keyframes kanmtion
+{
+          0%{content: "|"}
+          2%{content: "h|"}
+          4%{content: "he|"}
+          6%{content: "her|"}
+          8%{content: "here|"}
+          10%{content: "her|"}
+          12%{content: "he|"}
+          14%{content: "h|"}
+          16%{content: "|"}
+          18%{content: "a|"}
+          20%{content: "ap|"}
+          22%{content: "ap|"}
+          24%{content: "app|"}
+          26%{content: "apps|"}
+          28%{content: "app|"}
+          30%{content: "ap|"}
+          32%{content: "a|"}
+          34%{content: "|"}
+          36%{content: "s|"}
+          38%{content: "so|"}
+          40%{content: "sof|"}
+          42%{content: "soft|"}
+          44%{content: "softw|"}
+          48%{content: "softwa|"}
+          50%{content: "softwar|"}
+          52%{content: "software|"}
+          54%{content: "software|"}
+          56%{content: "softwae|"}
+          58%{content: "softwa|"}
+          60%{content: "softw|"}
+          62%{content: "soft|"}
+          64%{content: "sof|"}
+          66%{content: "so|"}
+          68%{content: "s|"}
+          70%{content: "|"}
+          72%{content: "w|"}
+          74%{content: "we|"}
+          76%{content: "web|"}
+          78%{content: "webs|"}
+          80%{content: "websi|"}
+          82%{content: "websit|"}
+          84%{content: "website|"}
+          86%{content: "website|"}
+          88%{content: "websit|"}
+          90%{content: "websi|"}
+          92%{content: "webs|"}
+          94%{content: "web|"}
+          96%{content: "we|"}
+          98%{content: "w|"}
+          100%{content: "|"}
+
+}
+
+#about
+{
+          overflow: hidden !important;
+         margin-top: 60px ;
+         padding-top: 80px;
+
+}
+
+/*///////////////////////////////////// END OF CSS SECTION 2 /////////////////////////////////*/
+
+/*///////////////////////////////////// START OF CSS SECTION 3 /////////////////////////////////*/
+
+
+.iconfoot
+{
+          font-size: 30px;
+         
+}
+
+.vh-30
+{
+          background-color: rgb(12, 7, 0);
+}
+
+.changnav
+{
+          background-color: black !important;
+          color: white !important;
+}
+
+.navbar
+{
+          transition: all 1s;
+}
+
+.logowidht
+{
+          width: 50%;
+}
+
+/*////////////////////////////////// SECTION TEAM/////////////////////////////////////*/
+#team
+{
+      
+      padding-top: 100px;
+      margin-bottom: 60px;
+}
+.titel
+{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: relative;
+}
+.titel h3
+{
+      font-size: 45px;
+      font-weight: 800;
+      position:absolute ;
+}
+.titel h2
+{
+      font-size: 60px;
+      font-weight: 800;
+      color: #999;
+}
+.info .layer-info
+{
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 195, 218, 0.9);
+      top: 10%;
+      opacity: 0;
+      transition: all 0.5s;
+}
+.info:hover .layer-info
+{
+      opacity: 1;
+      top: 0;
+}
+.layer-info .test
+{
+      bottom: 10%;
+      left: 10%;
+      color: #fff;
+      text-align: center;
+}
+.layer-info .info-ic
+{
+      top: 2%;
+      left: 2%;
+}
+
+/*///////////////////////////////////// SECTION SERVICE //////////////////////*/
+.serv-item i
+{
+      font-size: 45px !important;
+      color: rgb(0, 112, 103);
+      -webkit-text-stroke-width:3px ;
+      -webkit-text-stroke-color: #fff;
+}
+#service
+{
+      background-color: gray;
+      padding-bottom: 10%;
+      color: white !important;
+}
+#service .container
+{
+      padding-top: 10%;
+}
+.serv-itemtow ul li
+{
+      list-style-type: none !important;
+      line-height: 2rem;
+}
+
+@media screen and (max-width:2000px) and (min-width:768px)
+{
+      .serv-itemtow ul
+{
+      margin-left: 30% !important;
+}
+}
+@media screen and (max-width:1200px) and (min-width:768px)
+{
+      .serv-itemtow ul
+{
+      margin-left: 25% !important;
+}
+}
+@media screen and (max-width:991px) and (min-width:300px)
+{
+      .spactionlast
+      {
+            text-align: center !important;
+      }
+}
+/*///////////////////////////////////// SECTION PRICES //////////////////////*/
+
+.pric-item ul li
+{
+      list-style-type: none;
+      line-height: 2.5rem;
+}
+.pric-item
+{
+      background-color: #fff !important;
+      overflow: hidden;
+      transition: 1s;
+      
+}
+.pric-item h2
+{
+      font-size: 60px;
+}
+.sbtioncase
+{
+      color: #00d5ee !important;
+}
+.pric-item a
+{
+      text-decoration: none !important;
+      color: #fff !important;
+      padding: 5px 10px ;
+      border-radius: 5px;
+}
+.btns
+{
+      background-color: #00d5ee !important;
+}
+#pricing
+{
+      background-color: #f1f1f1;
+      overflow: hidden;
+}
+.sbh
+{
+      transform: scale(1.1,1.1);
+}
+@media screen and (max-width:991px) and (min-width:300px)
+{
+      .sbh
+{
+      transform: scale(1,1);
+     
+
+}
+}
+@media screen and (max-width:991px) and (min-width:300px)
+{
+       .pric-item
+       {
+            box-shadow: 0.5px 0.5px 10px rgb(195, 194, 194);
+
+       }
+       .pric-item:hover
+{
+      box-shadow: 0px 0px 0px ;
+}
+}
+.spn
+{
+      top: 4.5%;
+      right: 8%;
+      border-radius: 20px;
+      background-color: #00d5ee;
+}
+.pric-item:hover
+{
+      box-shadow: 0.5px 0.5px 10px rgb(195, 194, 194);
+}
+@media screen and (max-width:767px) and (min-width:300px) {
+      .pric-item
+      {
+            width: 310px !important;
+            margin: auto !important;
+      }
+}
+/*//////////////////////////////// SECTION Cilents /////////////////////////*/
+.forimg
+{
+      width: 30% !important;
+}
+.fa-calendar-days
+{
+      font-size: 60px;
+}
+
+.foot-log
+{
+      width: 100%;
+      height: 200px;
+      background-color: black;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column !important;
+      
+}
+.slids
+{
+      width: 10px !important;
+      height: 10px !important;
+      border-radius: 50%;
+}
+.iframe-map
+{
+      width: 100% !important;
+}
+.carouselExampleCaptions
+{
+      width: 100%;
+}
+
+.arroUp
+{
+      position: absolute;
+      bottom: 5%;
+      right: 5%;
+      z-index: 99999999999;
+      position: fixed;
+      transform: rotate(-90deg);
+      color: #00d5ee;
+      font-size: 20px;
+     cursor: pointer;
+     animation-name: movup;
+     animation-duration: 0.5s;
+     animation-iteration-count: infinite;
+     animation-direction: alternate;
+
+}
+@keyframes movup
+{
+      from{bottom: 6%;}
+      to{bottom: 5%;}
+}
+
+.lodang-page
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: #000;
+    z-index: 9999999;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
+.loader {
+      width: 48px;
+      height: 48px;
+      border-radius: 50%;
+      position: relative;
+      animation: rotate 1s linear infinite
+    }
+    .loader::before , .loader::after {
+      content: "";
+      box-sizing: border-box;
+      position: absolute;
+      inset: 0px;
+      border-radius: 50%;
+      border: 5px solid #FFF;
+      animation: prixClipFix 2s linear infinite ;
+    }
+    .loader::after{
+      border-color: #FF3D00;
+      animation: prixClipFix 2s linear infinite , rotate 0.5s linear infinite reverse;
+      inset: 6px;
+    }
+
+    @keyframes rotate {
+      0%   {transform: rotate(0deg)}
+      100%   {transform: rotate(360deg)}
+    }
+
+    @keyframes prixClipFix {
+        0%   {clip-path:polygon(50% 50%,0 0,0 0,0 0,0 0,0 0)}
+        25%  {clip-path:polygon(50% 50%,0 0,100% 0,100% 0,100% 0,100% 0)}
+        50%  {clip-path:polygon(50% 50%,0 0,100% 0,100% 100%,100% 100%,100% 100%)}
+        75%  {clip-path:polygon(50% 50%,0 0,100% 0,100% 100%,0 100%,0 100%)}
+        100% {clip-path:polygon(50% 50%,0 0,100% 0,100% 100%,0 100%,0 0)}
+    }
